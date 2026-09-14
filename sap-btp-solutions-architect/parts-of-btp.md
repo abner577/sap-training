@@ -10,10 +10,8 @@ Custom Customer Dispute Portal
             ▼
         SAP BTP
             │
-          APIs
-            │
             ▼
-      SAP BRIM / FI-CA
+        S/4HANA
 
 - The user interacts with your custom app, the app calls SAP APIs behind the scenes. 
 
@@ -51,7 +49,7 @@ So image your existing architecture has a bunch of different componenets such as
 
 - Now there lies the question how can we connect/combined this information, and that is what Integration Suite does.
 
-SAP BRIM
+S/4HANA
    │
    │
    ▼
@@ -88,13 +86,18 @@ It includes technologies such as:
 
 ---
 
-### 4. Artificial Intelligence
+### 4. Artificial Intelligence & Automation
 - THis answers: "How do we add AI to business processes"
 
 - BTP provides AI capabilities intended specifically for SAP scenarios, including building AI apps and agents that can connect to business processes and SAP data.
 
 Where technologies like the following are included:
 - SAP AI Core and Joule
+
+- The main thing is that you can create automations between products. You can also create agents to do background tasks like reconciling the bank at the end of the month automatically.
+
+## Joule
+- Isnt just one product but its many diff products and its all kind of that category of all these different AI tools. That can be utiized through systems where systems connect with each other instead of just having them in individual systems.
 
 ---
 
