@@ -66,7 +66,7 @@ Integration Suite
    └──────── Custom billing portal
 
 
-Is it specifically for integrating with existing SAP services like BRIM? Or for just connecting diff parts of our buisness (i.e. diff apps) together? Is the integration suite specifically for this or are there other parts for Integration that arent Integration Suite?
+*Is it specifically for integrating with existing SAP services like BRIM? Or for just connecting diff parts of our buisness (i.e. diff apps) together? Is the integration suite specifically for this or are there other parts for Integration that arent Integration Suite?*
 
 ---
 
