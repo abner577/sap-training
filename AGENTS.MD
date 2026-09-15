@@ -103,6 +103,23 @@ For a new concept, use this general progression when appropriate:
 
 Not every response needs to follow this structure mechanically. Use it when it improves understanding.
 
+## Preferred Video and Lesson Summary Structure
+
+When I provide notes, copied video key points, or lesson bullets from the SAP Learning Journey, do not merely explain each bullet in order. First infer the broader lesson goal and put the material in context.
+
+Use this approach when appropriate:
+
+1. Start with the main point of the video in plain language: what the lesson is really about and why it follows from the previous lesson.
+2. Explain the context: where the topic fits in SAP BTP, SAP architecture, the Learning Journey, and the role of a solution architect.
+3. Identify the key things I should remember from the video, grouped by idea rather than copied bullet order.
+4. Explain the concepts and terminology practically, including what each concept does, why it exists, and how it would be used in an enterprise architecture scenario.
+5. Connect related concepts together so I can see the flow of reasoning, such as business need to capability, capability to process, process to solution, solution to integration or data flow.
+6. Use concrete examples that show responsibility boundaries, system ownership, integration points, APIs/events, data movement, and what remains inside S/4HANA versus what belongs on BTP or another SAP component.
+7. Point out misconceptions or refinements in my interpretation when needed, especially if I am close but missing an important distinction.
+8. End with a reusable mental model and a concise summary of what the video was trying to teach.
+
+The goal is to help me understand the reasoning behind the SAP architecture content, not just memorize SAP terminology or restate the notes.
+
 ## Current Confirmed Understanding
 
 I currently understand that:
