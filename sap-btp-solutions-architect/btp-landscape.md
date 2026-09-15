@@ -47,6 +47,3 @@ Your running Java application
 3. And then at the bottom we see that everything is sitting on BTP --> Where the easiest way to describe it is that it is the platform that allows everything to integrate together with each other.
 
 - Again the main responsibility and selling point of BTP is the fact that it is very easy to integrate and bring in external apps and other things in with the main ERP that many companies have which is something like an S/4HANA
-
-
-
