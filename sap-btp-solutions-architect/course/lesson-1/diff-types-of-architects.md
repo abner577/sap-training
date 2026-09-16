@@ -50,7 +50,7 @@
 - The set of tools which can be used by enterprise architects in performign their tasks. Some of these tools are:
 
 ### 1. SAP Signavio: The "Why & What"
-- This tool is a "GPSfor Business Processes". It tells an organization why and what to build by revealing how the business actually runs, where the pain points are, and what the ideal future state looks like. 
+- This tool is a "GPS for Business Processes". It tells an organization why and what to build by revealing how the business actually runs, where the pain points are, and what the ideal future state looks like. 
 
 Imagine and architect gets a request like this: "We need an app to approve invoices faster." This is how SAP Signavio can help:
 

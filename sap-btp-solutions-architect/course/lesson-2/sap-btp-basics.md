@@ -9,9 +9,9 @@ Main ideas:
 
 - The main thing that we should takeaway is that BTP is the platform layer that helps enterprises change faster without constantly damaging or over-customizing their core systems. 
 
-- Technical debt = short-term technical decisions that make future change slower, riskier, and more expensive. 
+**- Technical debt** = short-term technical decisions that make future change slower, riskier, and more expensive. 
 
-- Also the business reason beind clearn core is technical debt.
+- Also the business reason beind clean core is technical debt.
 
 Example:
 A company customizes S/4HANA heavily for every special business request. At first, that feels fast. But later, upgrades become painful, integrations become fragile, and every new feature requires untangling old custom code.
@@ -39,15 +39,15 @@ That is why BTP matters. It gives companies a place to extend, integrate, and in
 ---
 
 ## SAP BTP Account Model Setup
-1. GlobalAccount: A representation of your contractual agreement with SAP. Dont actually build anything on this level, you administer form here.
+**1. GlobalAccount:** A representation of your contractual agreement with SAP. Dont actually build anything on this level, you administer form here.
 
-2. Subaccounts: Hold together your applications, services, and subscriptions and allow you to organize and structure your global account. The actual work is done on this level.
+**2. Subaccounts:** Hold together your applications, services, and subscriptions and allow you to organize and structure your global account. The actual work is done on this level.
 
-3. Region: Represents a geographical location where application, data, or services are hosted. Third-party cloud providers usually, operate the infrastructure layer of the regions, whereas SAP operations the platform layer. 
+**3. Region:** Represents a geographical location where application, data, or services are hosted. Third-party cloud providers usually, operate the infrastructure layer of the regions, whereas SAP operates the platform layer. 
 
-4. Directory: Optional grouping for subaccounts
+**4. Directory:** Optional grouping for subaccounts
 
-5. Environment: Runtime inside a subaccount, such as Cloud Foundry, Kyma, etc.
+**5. Environment:** Runtime inside a subaccount, such as Cloud Foundry, Kyma, etc.
 
 Example:
 
@@ -80,11 +80,11 @@ Check out this picture for an actual example of a SAP BTP Account Model setup:
 - The cockpit is the central tool for operations including adminstration and development.
 
 #### Additional SAP BTP Terminology
-- Entitlement: Means you are allowed to use a specific SAP BTP service or service plan.
-- A quote means how much of it you are allowed to use.
+**- Entitlement:** Means you are allowed to use a specific SAP BTP service or service plan.
+**- Quote:** A quote means how much of it you are allowed to use.
 
-- Service = SAP HANA Cloud
-- Service plan = Free plan, standard plan, pro plan
+**- Service =** SAP HANA Cloud
+**- Service plan =** Free plan, standard plan, pro plan
 
 
 **Subscription vs Service Instance**

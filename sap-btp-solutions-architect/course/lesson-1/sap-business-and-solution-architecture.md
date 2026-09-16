@@ -78,12 +78,12 @@ SAP BTP Integration Suite
 SAP Build Process Automation
 SAP Analytics Cloud
 
-#### Solution Capability bs Solution Componenet
+#### Solution Capability vs Solution Componenet
 - Solution Capability --> What the software can do --> For example: Managing sales
 - Solution Componenet --> The actual product/setvice providing --> For example: SAP S/4HANA Sales
 
 #### Product Map
-- A product mapis basically a map showign which SAP products/components support which solution capabilities. It helps answer:
+- A product map is basically a map showing which SAP products/components support which solution capabilities. It helps answer:
 "If the business needs this capability, which SAP solutions might be involved?" Its a reference to look at when making architecture decisions. 
 
 #### The Four Enterprise Domains
@@ -122,9 +122,9 @@ We can think of it in three levels:
 | High-Level Solution Architecture | Which SAP solutions may support it | S/4HANA Sales, SAP Commerce Cloud, BTP Integration Suite |
 | Detailed Solution Architecture | How those solutions interact step by step | Commerce creates cart, S/4HANA checks availability, BTP Integration Suite connects external carrier, invoice posted in S/4HANA |
 
-- In the previous lesson was more about the first two levels, we are now talking about the third level. 
+- The previous lesson was more about the first two levels, we are now talking about the third level. 
 
-#### What "Business Converage Means"
+#### What "Business Coverage Means"
 - This means which parts of the business are covered by the reference solution architecture. It doesnt ncessarily cover everything the company does, it defines the scope. For example a company is focused on order filfillment, the business coverage might include:
 
 - Customer order management
@@ -180,13 +180,13 @@ SAP solution content might call part of that:
 Sales order processing
 
 #### 5 core ideas from the video
-1. High-level solution architecture tells you what SAP products might be involved
+**1. High-level solution architecture tells you what SAP products might be involved**
 - At the high level, SAP helps map business needs to possible SAP solutions. This is useful but is still broad, it doesnt yet explain the exact processes or integration behavior.
 
-2. Detailed Solution Architecture explain how the solution works. 
+**2. Detailed Solution Architecture explain how the solution works.**
 - This is the deeperlevel, and get sinto specific like which SAP componenets participate, what data moves between systems, which APIs are used, etc.
 
-3. Solution Value Flow connects business value to software behavior
+**3. Solution Value Flow connects business value to software behavior**
 - A Solution Value Flow is a high-level flow showing how SAP solutions support a business outcome 
 
 Example:
@@ -205,7 +205,7 @@ Fulfill delivery      -> SAP S/4HANA / SAP EWM
 Invoice customer      -> SAP S/4HANA Finance
 Receive payment       -> Payment integration / S/4HANA
 
-4. Solution Process Flows go step-by-step
+**4. Solution Process Flows go step-by-step**
 - A solution Value Flow is still somewhat high-level. A Solution Process Flow is more detailed. It shows the actual sequence of system-support steps.
 
 Example:
