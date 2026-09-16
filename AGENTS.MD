@@ -107,11 +107,13 @@ Not every response needs to follow this structure mechanically. Use it when it i
 
 When I provide notes, copied video key points, or lesson bullets from the SAP Learning Journey, do not merely explain each bullet in order. First infer the broader lesson goal and put the material in context.
 
+Unless I explicitly ask you to create or update repository notes, provide lesson summaries directly in the chat so I can learn from the explanation and write my own notes.
+
 Use this approach when appropriate:
 
 1. Start with the main point of the video in plain language: what the lesson is really about and why it follows from the previous lesson.
 2. Explain the context: where the topic fits in SAP BTP, SAP architecture, the Learning Journey, and the role of a solution architect.
-3. Identify the key things I should remember from the video, grouped by idea rather than copied bullet order.
+3. Identify the key things I should remember from the video/lesson, grouped by idea rather than copied bullet order.
 4. Explain the concepts and terminology practically, including what each concept does, why it exists, and how it would be used in an enterprise architecture scenario.
 5. Connect related concepts together so I can see the flow of reasoning, such as business need to capability, capability to process, process to solution, solution to integration or data flow.
 6. Use concrete examples that show responsibility boundaries, system ownership, integration points, APIs/events, data movement, and what remains inside S/4HANA versus what belongs on BTP or another SAP component.
