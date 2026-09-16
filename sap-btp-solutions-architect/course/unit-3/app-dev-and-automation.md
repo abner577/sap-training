@@ -181,3 +181,34 @@ User
 | SAP Mobile Development Kit | Cross-platform enterprise apps with faster development |
 | SAP BTP SDK for iOS | Native iOS apps |
 | SAP BTP SDK for Android | Native Android apps |
+
+---
+
+## Additional information regarding App Dev and Automation Services
+- This lesson is saying that SAP BTP application dev isnt only about writing code or choosing a runtime. We also need things like user access, task handling, observability, and CI/CD.
+
+- Earlier lessons focused on how applicates are just created, this lesson shifts to how they are managed and delivered. These things arent "business logic" --> Instead they are platform services that make development and operations manageable.
+
+| Need | SAP BTP Service |
+|---|---|
+| Build, test, deploy code automatically | SAP Continuous Integration and Delivery |
+| Move artifacts between dev, test, and production | SAP Cloud Transport Management |
+| Monitor and troubleshoot applications | SAP Cloud Logging |
+
+### Key Ideas
+**1. SAP CI CD is about automating the developer pipeline. CI/CD defines a pipeline such as**:
+
+- Pulling code from a repo
+- Building it, running tests, packaging it, and deploying it to a target enviornment.
+
+This is where SAP Cloud Transport Management (How can we turn source code --> Deployed app) as it controls movement betwene envs.
+
+- Enterprises need governance around how artifcats move from env to env and Transport Management gives a centralized way to move things across SAP landscapes. 
+
+**2. SAP Start and SAP Build Work Zone are about user entry points**
+- Enterprise users often work across many applications: S/4, SuccessFactors, Ariba, custom apps, analytics. SAP Start and SAP Build Work Zone try to reduce that fragmentation by giving users one place to access apps, content, and business information.
+
+- SAP Start is more like one central login point for SAP Cloud users. Whereas SAP Build Work Zone is broader, it lets orgs create role-based digital workspaces.
+
+**3. SAP Cloud Logging**
+- Gives insights into what your app is actually doing and how its performing. SAP Cloud Logging centralizes logs and provides search, analysis, retention, and alerting capabilities. 
