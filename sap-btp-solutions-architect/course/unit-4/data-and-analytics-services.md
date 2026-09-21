@@ -49,4 +49,30 @@ Capabilities:
 - Is where users consume and interact with data through analytics and dashboards. 
 - It has analytics applications, planning capabilities, and data analyzing capabilitites. 
 
-- Its the front-end experience for analyzing, planning, and explaining business data. 
+- Its the front-end experience for analyzing, planning, and explaining business data. \
+
+---
+
+## Exploring SAP Business Data Cloud (BDC)
+The main point of this lesson is: 
+- SAP Business Data Cloud is SAPs newer, higher-level data and analytics offering that brings together data products, Datasphere, Analytics Cloud, Databricks, and AI into a managed business data fabric. 
+
+- Last lesson introduced different parts of this capability of BTP such as: data fabric, data products, SAP Datasphere AP Analytics Cloud, SAP HANA Cloud, MDG, and so on. This lesson is saying: SAP Business Data Cloud packages several of those ideas into one product.
+
+- The role of SAP Business Data Cloud is not to simply be another dashboarding tool, its a platform intended to give companies a trusted, business-aware data foundation.
+
+**The main problems BDC solves**
+Many companies have data spread across:
+- SAP systems, non-SAP systems, cloud data lakes, on-premises database, etc. 
+
+- The main aching point isnt just that the data is scattered, the bigger problem is that the data often lacks a shared business meaning. For example, diff teams may define diff terms like performance and revenue differently. --> These diff teams then pull data from diff places like S/4HANA, spreadsheets, etc.
+
+- BDC tries to solve this by creating a more unififed governed and semantically rich data foundatio.
+
+### Layered Mental Model
+| Layer | Plain Meaning |
+|---|---|
+| **Source Systems Layer** | Where the original data lives |
+| **Data Products Layer** | Curated, governed, API-accessible business data assets |
+| **Business Data Fabric Layer** | Tools that model, analyze, engineer, govern, and use the data |
+| **Intelligent Applications Layer** | Managed AI-powered business apps built on top of curated data |
