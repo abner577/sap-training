@@ -4,7 +4,7 @@
 A solution architect needs to answer questions like:
 - How do SAP and non-SAP systems exchange data, which systems own a specific business transactions, should this comm, be API-based, event driven, file-based?
 
-- The target model is an Integration Center of Excellence or CoE. A Coe is the operation model that defines reusuable patterns for approved APIs, integration standards, security rules, monitoring practices, etc.
+- The target model is an Integration Center of Excellence or CoE. A CoE is the operation model that defines reusuable patterns for approved APIs, integration standards, security rules, monitoring practices, etc.
 
 ### The 5 main architecture principles to keep in mind:
 | Imperative | Plain meaning |
@@ -20,7 +20,7 @@ A solution architect needs to answer questions like:
 ### Sap Integration Suite
 - Integration Suite is the central BTP service family for integration. Its job is to connect applications and data between diff applications. 
 
-SAPs Integration Suite is surronded by 4 main ideas:
+SAPs Integration Suite is surrounded by 4 main ideas:
 
 1. Predefined Integration Content --> SAP provides reusuable APIs, event, and integration flows so teams dont need to start from 0
 2. Open integration --> SAP systems can integrate with non-SAP systems using normal REST apis and connectors.
@@ -67,9 +67,9 @@ SAPs Integration Suite is surronded by 4 main ideas:
 
 **1. Cloud Integration**
 - This is the heart of many Integration Suite scenarios, it uses what we call **iFlows**. An iFlow describes:
-- Who sends the message, who receives the message, how the message is transformed, how routing decisions happen, whether encryption ot security steps are applied, how errors are handled. 
+- Who sends the message, who receives the message, how the message is transformed, how routing decisions happen, whether encryption or security steps are applied, how errors are handled. 
 
-- An important concepts are adapters which decide which communication protocols Cloud will use when implementng these integrations such as:
+- An important concept are adapters which decide which communication protocols Cloud will use when implementng these integrations such as:
 - REST, SOAP, ODATA, SFTP, etc.
 
 - The adapter decides how Cloud integration talks to a system. The iFlow decides what happens to the message once it is inside the integration process. 

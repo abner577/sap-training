@@ -1,7 +1,7 @@
 ## Exploring SAP Data and Analytics Advisory Methodology
 This lesson is less about which SAP data product does what and more about how an architect should reason from business pain to target data architecture. The main point is that SAP Data and Analytics Advisory Methodology, or DAAM, is a structured architecture method for designing data and analytics solutions around business outcomes, not around tools first. 
 
-- First we ask: What  business outcome are we trying to achieve, what data is needed, what capabilities are required and then only can we ask what architecture best supports/solves it and what products do we choose. 
+- First we ask: What business outcome are we trying to achieve, what data is needed, what capabilities are required and then only can we ask what architecture best supports/solves it and what products do we choose. 
 
 - So while SAP Datasphere, SAC, BDC and tools, DAAM is the decision process that helps you choose and arrange the tools reponsibly.
 
@@ -12,7 +12,7 @@ This lesson is less about which SAP data product does what and more about how an
 |---|---|---|
 | **I. Scoping and baseline analysis** | Where are we now, and what problem are we investigating? | Scope, current-state artifacts, pain points |
 | **II. Business outcomes and requirements** | What value do we need, and what data/use cases support it? | Business outcomes, use cases, data journey, solution context |
-| **III. Capability map and solution architecture** | What capabilities and architecture are needed? | Capability map, solution map, architecture options, target architecture |
+| **III. Capability map and solution architecture** | Developing the actual solution | Capability map, solution map, architecture options, target architecture |
 | **IV. Data governance and road maps** | What governance and implementation steps are required? | Governance actions, maturity assessment, road map |
 
 #### Phase 1: Scoping And Baseline Analysis
@@ -25,7 +25,7 @@ This lesson is less about which SAP data product does what and more about how an
 - A business outocme is a measurable result the business wants. Not “implement SAP Datasphere,” but something like: "Reduce supplier-related production delays by 15%"
 
 Then that business outcome --> Drives the use cases and the decisions that we make. This is where data products become concrete. Instead of simply saying "we need this data", the team might define data products like:
-- Supplier Delivery Performance and  Supplier Risk score.
+- Supplier Delivery Performance and Supplier Risk score.
 
 - Again these are unified sort of fields/values that are shared and have one definition.
 

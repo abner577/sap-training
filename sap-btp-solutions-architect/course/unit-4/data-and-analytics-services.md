@@ -1,5 +1,5 @@
 ## Exploring Data and Analytics Services
-- The main point of this lesson is that SAP BTPs dat and analytics services help companies turn scattered data into buisness-meaningful insights. It isnt just about storing the data its about organizing it and making it usable for decisions.
+- The main point of this lesson is that SAP BTPs data and analytics services help companies turn scattered data into buisness-meaningful insights. It isnt just about storing the data its about organizing it and making it usable for decisions.
 
 - In a real organization data about different aspects of your company will be stored in different places such as Ariba or SuccessFactors right so the problem is how we organize and get all this data connected while still remaining secure.
 
@@ -43,7 +43,7 @@ Capabilities:
 - Connect to SAP and non-SAP data sources, model data semantically, so consumers understand business meaning (i.e. becomes business-friendly and ready for consumption.)
 
 **3. SAP Master Data Integration and SAP MDG**
-- MD is the stable business data used across processes. THe problem is that many applications need the same master data. SAP Master Data Integration gelps applications share master data through a pattern. Instead of every application mapping directly to every other application. They communicate through a common model, the SAP One Domain Model
+- MD is the stable business data used across processes. THe problem is that many applications need the same master data. SAP Master Data Integration helps applications share master data through a pattern. Instead of every application mapping directly to every other application. They communicate through a common model, the SAP One Domain Model
 
 4. SAP Analytics Cloud (SAC)
 - Is where users consume and interact with data through analytics and dashboards. 
