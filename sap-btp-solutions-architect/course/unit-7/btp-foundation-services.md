@@ -54,3 +54,9 @@ This area incldues things that help applications run and be managed. This lesson
 
 1. SAP Alert Notification Service --> Sends alerts when important events/failures happen
 2. SAP Usage Data Management Service --> Tracks usage for reporting, planning, billing, auditing. 
+
+**5. Authorization**
+- We know that autho answers what are you allowed to do. This introduces two types of users that we should know:
+
+1. Platform user --> Admin, operation, or developer managing BTP itself
+2. Business User --> End user consuing an app or service. 
