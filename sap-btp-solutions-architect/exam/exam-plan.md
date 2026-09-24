@@ -21,18 +21,30 @@ Codex should not claim generated questions are real exam questions.
 
 - A solution architect should start with the business outcome, then map capabilities, products, integrations, data ownership, security, cost, and operations.
 
+## Unit-by-Unit Review Workflow
+
+Use this review flow for each unit:
+
+1. The learner goes unit by unit and explains their understanding from their notes.
+2. Codex checks the explanation for accuracy.
+3. Codex points out anything that is wrong, missing, or slightly unclear.
+4. Codex turns the explanation into brief, coherent review notes.
+5. The notes should use practical language, not polished corporate or AI-sounding language.
+6. The notes should focus on what matters for review:
+   - the main lesson of the unit
+   - the most important distinctions
+   - key SAP services, products, or concepts
+   - what they are used for
+   - how they fit together in an architecture
+7. The notes should be short enough to refresh memory later. They should not become long lesson rewrites.
+
 ## Main Review Map
 
 ### Unit 1: Architecture Context
 
-- Enterprise architecture aligns business strategy, processes, applications, data, and technology.
-- Solution architecture designs a specific solution inside the enterprise architecture guardrails.
-- SAP Signavio helps understand and model business processes.
-- SAP LeanIX helps understand application landscapes, dependencies, lifecycles, and portfolio rationalization.
-- SAP Cloud ALM supports implementation and operations lifecycle management.
-- SAP Reference Architecture helps map business capabilities, business processes, solution capabilities, solution components, value flows, process flows, component diagrams, and data flows.
-
-Key distinction: business capability is what the business must do; business process is how it does it; solution capability is what software must support; solution component is the actual product or service.
+- Review notes are maintained in `review.md`.
+- Unit focus: SAP Reference Business Architecture and SAP Reference Solution Architecture.
+- Key review flow: business need -> business capability -> business process -> solution capability -> solution component -> architecture/integration/data flow.
 
 ### Unit 2: BTP Basics, Account Model, Resources, Cost
 
